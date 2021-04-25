@@ -1,0 +1,53 @@
+section {
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+}
+
+.one {
+  background-color: #ffffff;
+  background-image: url("the-pen.svg");
+  }
+
+.two {
+  background-color: #000000;
+  background-image: url("is-mightier.svg");
+  }
+
+.three {
+  background-color: #ffffff;
+  background-image: url("than.svg");
+  }
+
+.four {
+  background-color: #000000;
+  background-image: url("the-sword.svg");
+  }
+
+.five {
+  background-color: #00f10a;
+  background-image: url("end.svg");
+  }
+
+footer {
+  position: fixed;
+  bottom: 30px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+footer a:hover img {
+  transform: scale(1.5, 1.5);
+  transition: transform 1s;
+}
+
+
+@media (max-width: 800px) {
+  section {
+    background-attachment: scroll;
+    height: 75vw;
+  }
+}
